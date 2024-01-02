@@ -4,7 +4,7 @@ import glob
 import shutil
 
 def move_files(src, dst):
-    fileTypes = ('*.jpg', '*.png', '*.jpeg', '*.gif')
+    fileTypes = ('*.jpg', '*.JPG', '*.jpeg', '*.JPEG', '*.png', '*.PNG', '*.gif', '*.GIF', '*.bmp', '*.BMP', '*.tiff', '*.TIFF', '*.webp', '*.WEBP', '*.svg', '*.SVG', '*.ico', '*.ICO')
     imagePaths = [glob.glob(os.path.join(src, t)) for t in fileTypes]
 
     for path_list in imagePaths:
