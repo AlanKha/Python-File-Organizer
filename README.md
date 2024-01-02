@@ -10,7 +10,8 @@ The script searches for image files (with extensions: jpg, png, jpeg, gif) in th
 
 ### Running the Script
 
-By default, the downloads/pics path will be on the users path, but you can tweak the path in main.
+By default, the program will be based on {user}/downloads and {user}/pics, but you can tweak the path in main.
+if there is no {user}/pics directory, the program will make one.
 
 1. Clone the repository or download the `main.py` script file.
 2. Open a terminal or command prompt.
