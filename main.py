@@ -18,7 +18,7 @@ def move_files(src, dst):
 
 if __name__ == '__main__':
     downloadsPath = str(Path.home() / "Downloads")
-    targetPath = str(Path.home() / "Pics")
+    targetPath = str(Path.home() / "Pictures")
 
     if os.path.exists(targetPath) and os.path.exists(downloadsPath):
         move_files(downloadsPath, targetPath)
